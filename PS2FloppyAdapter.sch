@@ -1,0 +1,568 @@
+EESchema Schematic File Version 4
+LIBS:PS2FloppyAdapter-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J2
+U 1 1 5A555850
+P 6900 3500
+F 0 "J2" H 6950 4400 50  0000 C CNN
+F 1 "DRIVE SIDE" H 6950 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x17_Pitch2.54mm" H 6900 3500 50  0001 C CNN
+F 3 "" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5A555887
+P 4200 3600
+F 0 "J1" H 4250 4600 50  0000 C CNN
+F 1 "PS/2 SIDE" H 4250 2500 50  0000 C CNN
+F 2 "Conn:EDGE_FLOPPY40" H 4200 3600 50  0001 C CNN
+F 3 "" H 4200 3600 50  0001 C CNN
+	1    4200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5A5558B4
+P 6900 5200
+F 0 "J3" H 6900 5400 50  0000 C CNN
+F 1 "Conn_01x04" H 6900 4900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 3900 2700
+Wire Wire Line
+	3900 2700 3900 2900
+Wire Wire Line
+	4000 2900 3900 2900
+Connection ~ 3900 2900
+Wire Wire Line
+	4000 3000 3900 3000
+Connection ~ 3900 3000
+Wire Wire Line
+	4000 3100 3900 3100
+Connection ~ 3900 3100
+Wire Wire Line
+	4000 3200 3900 3200
+Connection ~ 3900 3200
+Wire Wire Line
+	4000 3300 3900 3300
+Connection ~ 3900 3300
+Wire Wire Line
+	4000 3400 3900 3400
+Connection ~ 3900 3400
+Wire Wire Line
+	4000 3500 3900 3500
+Connection ~ 3900 3500
+Wire Wire Line
+	4000 3600 3900 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	4000 3700 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	4000 3800 3900 3800
+Connection ~ 3900 3800
+Wire Wire Line
+	4000 3900 3900 3900
+Connection ~ 3900 3900
+Wire Wire Line
+	4000 4000 3900 4000
+Connection ~ 3900 4000
+Wire Wire Line
+	4000 4100 3900 4100
+Connection ~ 3900 4100
+Wire Wire Line
+	4000 4200 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	4000 4300 3900 4300
+Connection ~ 3900 4300
+Wire Wire Line
+	4000 4500 3900 4500
+Connection ~ 3900 4500
+Wire Wire Line
+	4000 4600 3900 4600
+Connection ~ 3900 4600
+$Comp
+L power:GND #PWR1
+U 1 1 5A555C0D
+P 3900 4800
+F 0 "#PWR1" H 3900 4550 50  0001 C CNN
+F 1 "GND" H 3900 4650 50  0000 C CNN
+F 2 "" H 3900 4800 50  0001 C CNN
+F 3 "" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4600 5700 4600
+Wire Wire Line
+	5700 4600 5700 4400
+Wire Wire Line
+	4500 4500 5450 4500
+Wire Wire Line
+	5450 4500 5450 4400
+$Comp
+L power:+12V #PWR3
+U 1 1 5A555D28
+P 5700 4400
+F 0 "#PWR3" H 5700 4250 50  0001 C CNN
+F 1 "+12V" H 5700 4540 50  0000 C CNN
+F 2 "" H 5700 4400 50  0001 C CNN
+F 3 "" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR2
+U 1 1 5A555D42
+P 5450 4400
+F 0 "#PWR2" H 5450 4250 50  0001 C CNN
+F 1 "+5V" H 5450 4540 50  0000 C CNN
+F 2 "" H 5450 4400 50  0001 C CNN
+F 3 "" H 5450 4400 50  0001 C CNN
+	1    5450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2700 5000 2700
+Wire Wire Line
+	4500 3000 5000 3000
+Wire Wire Line
+	4500 3200 5000 3200
+Wire Wire Line
+	4500 3400 5000 3400
+Wire Wire Line
+	4500 3500 5000 3500
+Wire Wire Line
+	4500 3600 5000 3600
+Wire Wire Line
+	4500 3700 5000 3700
+Wire Wire Line
+	4500 3800 5000 3800
+Wire Wire Line
+	4500 3900 5000 3900
+Wire Wire Line
+	4500 4000 5000 4000
+Wire Wire Line
+	4500 4100 5000 4100
+Wire Wire Line
+	4500 4200 5000 4200
+Wire Wire Line
+	4500 4300 5000 4300
+Text Label 5000 2700 2    60   ~ 0
+HDSEL
+Text Label 5000 3000 2    60   ~ 0
+INDEX
+Text Label 5000 3200 2    60   ~ 0
+DSEL_B
+Text Label 5000 3400 2    60   ~ 0
+MOTEN_B
+Text Label 5000 3500 2    60   ~ 0
+DIR
+Text Label 5000 3600 2    60   ~ 0
+STEP
+Text Label 5000 3700 2    60   ~ 0
+WDATA
+Text Label 5000 3800 2    60   ~ 0
+ENWRITE
+Text Label 5000 3900 2    60   ~ 0
+TRACK0
+Text Label 5000 4000 2    60   ~ 0
+WPROT
+Text Label 5000 4100 2    60   ~ 0
+RDATA
+Text Label 5000 4200 2    60   ~ 0
+HEAD1SEL
+Text Label 5000 4300 2    60   ~ 0
+DISKCHG
+Wire Wire Line
+	6700 5200 6600 5200
+Wire Wire Line
+	6600 5200 6600 5300
+Wire Wire Line
+	6700 5300 6600 5300
+Connection ~ 6600 5300
+$Comp
+L power:GND #PWR7
+U 1 1 5A55642F
+P 6600 5600
+F 0 "#PWR7" H 6600 5350 50  0001 C CNN
+F 1 "GND" H 6600 5450 50  0000 C CNN
+F 2 "" H 6600 5600 50  0001 C CNN
+F 3 "" H 6600 5600 50  0001 C CNN
+	1    6600 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2700 7700 2700
+Wire Wire Line
+	7200 3000 7900 3000
+Wire Wire Line
+	7200 3200 7700 3200
+Wire Wire Line
+	7200 3100 7700 3100
+Wire Wire Line
+	7200 3300 7700 3300
+Wire Wire Line
+	7200 3400 7700 3400
+Wire Wire Line
+	7200 3500 7700 3500
+Wire Wire Line
+	7200 4300 7900 4300
+Wire Wire Line
+	7200 4200 7700 4200
+Wire Wire Line
+	7200 4100 7900 4100
+Wire Wire Line
+	7200 4000 7900 4000
+Wire Wire Line
+	7200 3900 7900 3900
+Wire Wire Line
+	7200 3800 7700 3800
+Wire Wire Line
+	7200 3700 7700 3700
+Wire Wire Line
+	7200 3600 7700 3600
+Text Label 7700 2700 2    60   ~ 0
+HDSEL
+Text Label 7700 3000 2    60   ~ 0
+INDEX
+Text Label 7700 3100 2    60   ~ 0
+MOTEN_A
+Text Label 7700 3200 2    60   ~ 0
+DSEL_B
+Text Label 7700 3300 2    60   ~ 0
+DSEL_A
+Text Label 7700 3400 2    60   ~ 0
+MOTEN_B
+Text Label 7700 3500 2    60   ~ 0
+DIR
+Text Label 7700 3600 2    60   ~ 0
+STEP
+Text Label 7700 3700 2    60   ~ 0
+WDATA
+Text Label 7700 3800 2    60   ~ 0
+ENWRITE
+Text Label 7700 3900 2    60   ~ 0
+TRACK0
+Text Label 7700 4000 2    60   ~ 0
+WPROT
+Text Label 7700 4100 2    60   ~ 0
+RDATA
+Text Label 7700 4200 2    60   ~ 0
+HEAD1SEL
+Text Label 7700 4300 2    60   ~ 0
+DISKCHG
+Wire Wire Line
+	6700 5100 6400 5100
+Wire Wire Line
+	6400 5100 6400 5000
+Wire Wire Line
+	6700 5400 6100 5400
+Wire Wire Line
+	6100 5400 6100 5000
+$Comp
+L power:+5V #PWR5
+U 1 1 5A556E3D
+P 6400 5000
+F 0 "#PWR5" H 6400 4850 50  0001 C CNN
+F 1 "+5V" H 6400 5140 50  0000 C CNN
+F 2 "" H 6400 5000 50  0001 C CNN
+F 3 "" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR4
+U 1 1 5A556E57
+P 6100 5000
+F 0 "#PWR4" H 6100 4850 50  0001 C CNN
+F 1 "+12V" H 6100 5140 50  0000 C CNN
+F 2 "" H 6100 5000 50  0001 C CNN
+F 3 "" H 6100 5000 50  0001 C CNN
+	1    6100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2700 6600 2700
+Wire Wire Line
+	6700 4300 6600 4300
+Connection ~ 6600 4300
+Wire Wire Line
+	6700 4200 6600 4200
+Connection ~ 6600 4200
+Wire Wire Line
+	6700 4100 6600 4100
+Connection ~ 6600 4100
+Wire Wire Line
+	6700 4000 6600 4000
+Connection ~ 6600 4000
+Wire Wire Line
+	6700 3900 6600 3900
+Connection ~ 6600 3900
+Wire Wire Line
+	6700 3800 6600 3800
+Connection ~ 6600 3800
+Wire Wire Line
+	6700 3700 6600 3700
+Connection ~ 6600 3700
+Wire Wire Line
+	6700 3600 6600 3600
+Connection ~ 6600 3600
+Wire Wire Line
+	6700 3500 6600 3500
+Connection ~ 6600 3500
+Wire Wire Line
+	6700 3400 6600 3400
+Connection ~ 6600 3400
+Wire Wire Line
+	6700 3300 6600 3300
+Connection ~ 6600 3300
+Wire Wire Line
+	6700 3200 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 2700 6600 2900
+Wire Wire Line
+	6700 2900 6600 2900
+Connection ~ 6600 2900
+Wire Wire Line
+	6700 3000 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	6700 3100 6600 3100
+Connection ~ 6600 3100
+$Comp
+L power:GND #PWR6
+U 1 1 5A557AD2
+P 6600 4500
+F 0 "#PWR6" H 6600 4250 50  0001 C CNN
+F 1 "GND" H 6600 4350 50  0000 C CNN
+F 2 "" H 6600 4500 50  0001 C CNN
+F 3 "" H 6600 4500 50  0001 C CNN
+	1    6600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3300 5000 3300
+Text Label 5000 3300 2    60   ~ 0
+DSEL_A
+Wire Wire Line
+	4500 3100 5000 3100
+Text Label 5000 3100 2    60   ~ 0
+MOTEN_A
+Wire Wire Line
+	4500 2800 5000 2800
+Wire Wire Line
+	7200 2800 7700 2800
+Text Label 5000 2800 2    60   ~ 0
+RES1
+Text Label 7700 2800 2    60   ~ 0
+RES1
+Wire Wire Line
+	4500 2900 5000 2900
+Wire Wire Line
+	7200 2900 7700 2900
+Text Label 5000 2900 2    60   ~ 0
+RES2
+Text Label 7700 2900 2    60   ~ 0
+RES2
+Wire Wire Line
+	4500 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 5000
+Wire Wire Line
+	4750 5000 3700 5000
+Wire Wire Line
+	3700 5000 3700 4400
+Wire Wire Line
+	3700 4400 4000 4400
+$Comp
+L Device:R R1
+U 1 1 5A66828C
+P 8050 3000
+F 0 "R1" V 8000 2800 50  0000 C CNN
+F 1 "1K" V 8050 3000 50  0000 C CNN
+F 2 "Passive:RESC1608X55" V 7980 3000 50  0001 C CNN
+F 3 "" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5A668580
+P 8050 3900
+F 0 "R2" V 8000 3700 50  0000 C CNN
+F 1 "1K" V 8050 3900 50  0000 C CNN
+F 2 "Passive:RESC1608X55" V 7980 3900 50  0001 C CNN
+F 3 "" H 8050 3900 50  0001 C CNN
+	1    8050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5A6685AF
+P 8050 4000
+F 0 "R3" V 8000 3800 50  0000 C CNN
+F 1 "1K" V 8050 4000 50  0000 C CNN
+F 2 "Passive:RESC1608X55" V 7980 4000 50  0001 C CNN
+F 3 "" H 8050 4000 50  0001 C CNN
+	1    8050 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5A6685D1
+P 8050 4100
+F 0 "R4" V 8000 3900 50  0000 C CNN
+F 1 "1K" V 8050 4100 50  0000 C CNN
+F 2 "Passive:RESC1608X55" V 7980 4100 50  0001 C CNN
+F 3 "" H 8050 4100 50  0001 C CNN
+	1    8050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5A6685FA
+P 8050 4300
+F 0 "R5" V 8000 4100 50  0000 C CNN
+F 1 "1K" V 8050 4300 50  0000 C CNN
+F 2 "Passive:RESC1608X55" V 7980 4300 50  0001 C CNN
+F 3 "" H 8050 4300 50  0001 C CNN
+	1    8050 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 4300 8250 4300
+Wire Wire Line
+	8250 4300 8250 4100
+Wire Wire Line
+	8200 3000 8250 3000
+Connection ~ 8250 3000
+Wire Wire Line
+	8200 3900 8250 3900
+Connection ~ 8250 3900
+Wire Wire Line
+	8200 4000 8250 4000
+Connection ~ 8250 4000
+Wire Wire Line
+	8200 4100 8250 4100
+Connection ~ 8250 4100
+$Comp
+L power:+5V #PWR8
+U 1 1 5A668AC3
+P 8250 2650
+F 0 "#PWR8" H 8250 2500 50  0001 C CNN
+F 1 "+5V" H 8250 2790 50  0000 C CNN
+F 2 "" H 8250 2650 50  0001 C CNN
+F 3 "" H 8250 2650 50  0001 C CNN
+	1    8250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2900 3900 3000
+Wire Wire Line
+	3900 3000 3900 3100
+Wire Wire Line
+	3900 3100 3900 3200
+Wire Wire Line
+	3900 3200 3900 3300
+Wire Wire Line
+	3900 3300 3900 3400
+Wire Wire Line
+	3900 3400 3900 3500
+Wire Wire Line
+	3900 3500 3900 3600
+Wire Wire Line
+	3900 3600 3900 3700
+Wire Wire Line
+	3900 3700 3900 3800
+Wire Wire Line
+	3900 3800 3900 3900
+Wire Wire Line
+	3900 3900 3900 4000
+Wire Wire Line
+	3900 4000 3900 4100
+Wire Wire Line
+	3900 4100 3900 4200
+Wire Wire Line
+	3900 4200 3900 4300
+Wire Wire Line
+	3900 4300 3900 4500
+Wire Wire Line
+	3900 4500 3900 4600
+Wire Wire Line
+	3900 4600 3900 4800
+Wire Wire Line
+	6600 5300 6600 5600
+Wire Wire Line
+	6600 4300 6600 4500
+Wire Wire Line
+	6600 4200 6600 4300
+Wire Wire Line
+	6600 4100 6600 4200
+Wire Wire Line
+	6600 4000 6600 4100
+Wire Wire Line
+	6600 3900 6600 4000
+Wire Wire Line
+	6600 3800 6600 3900
+Wire Wire Line
+	6600 3700 6600 3800
+Wire Wire Line
+	6600 3600 6600 3700
+Wire Wire Line
+	6600 3500 6600 3600
+Wire Wire Line
+	6600 3400 6600 3500
+Wire Wire Line
+	6600 3300 6600 3400
+Wire Wire Line
+	6600 3200 6600 3300
+Wire Wire Line
+	6600 2900 6600 3000
+Wire Wire Line
+	6600 3000 6600 3100
+Wire Wire Line
+	6600 3100 6600 3200
+Wire Wire Line
+	8250 3000 8250 2650
+Wire Wire Line
+	8250 3900 8250 3000
+Wire Wire Line
+	8250 4000 8250 3900
+Wire Wire Line
+	8250 4100 8250 4000
+Text Notes 4750 7600 0    50   ~ 0
+This work is licensed under the Creative Commons\nAttribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit \nhttp://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866,\nMountain View, CA 94042, USA.
+Text Notes 7250 6850 0    100  ~ 20
+PS/2 Floppy Adapter
+Text Notes 7250 7000 0    60   ~ 12
+By @TubeTimeUS
+Text Notes 7100 5250 0    50   ~ 0
+→ OUTPUT TO STANDARD PC FLOPPY DRIVE
+Text Notes 3950 2450 0    50   ~ 0
+← TO IBM PS/2
+Text Notes 8400 3300 0    50   ~ 0
+DRIVE MUST BE JUMPERED (OR CABLED) FOR DRIVE SELECT B
+$EndSCHEMATC
